@@ -1,0 +1,231 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  color: #0081C9;
+}
+a:hover{
+  background-color: #A084DC;
+  color: black;
+  border-radius: 7%;
+}
+body{
+  margin-top: 0%;
+  text-align: center;
+  position: relative;
+}
+hr{
+  background-color: tranparent;
+  width: 10%;
+  border-top: 0.45rem;
+  border-color: #C98474;
+  border-style: dotted none none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1, h2{
+  color: #0081C9;
+  text-align: center;
+  align-items: center;
+
+}
+button{
+  color: white;
+  background-color: #698269;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 7%;
+  margin-bottom: 2rem;
+}
+.header-div{
+  padding-top: 120px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #B5D5C5;
+}
+.top-cloud{
+  position: absolute;
+  right: 18%;
+  top: 73%;
+  width: 9%;
+  height: auto;
+}
+.middle-cloud{
+  position: absolute;
+  right: 30%;
+  top: 43%;
+  width: 7%;
+  height: auto;
+}
+.buttom-cloud{
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  width: 10%;
+  height: auto;
+}
+.mountain{
+  width: 70%;
+  height: auto%;
+}
+.my-name{
+  font-family: Sacramento;
+  font-size: 5rem;
+}
+button:hover{
+  background-color: #FFB100;
+  color: black;
+}
+.profile-img{
+  width: 20%;
+}
+.mid-div{
+  display: block;
+  text-align: center;
+  line-height: 1;
+}
+.div-skill{
+  width: 50%;
+  height: 9.44rem;
+  margin: 1.5rem auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.web-img{
+  width: auto;
+  height: 9.44rem;
+  margin: auto;
+  float: left;
+  margin-right: 2rem;
+}
+.research-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: right;
+  margin-left: 2rem;
+
+}
+.ai-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: left;
+  margin-right: 2rem;
+
+}
+.android-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: right;
+  margin-left: 2rem;
+
+}
+.security-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: left;
+  margin-right: 2rem;
+}
+.hacker-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: right;
+  margin-left: 2rem;
+}
+.data-img{
+  height: 9.44rem;
+  width: auto;
+  margin: auto;
+  float: left;
+  margin-right: 2rem;
+}
+
+.footer-div{
+  background-color: #B5D5C5;
+  margin-bottom: 0px;
+  padding: 50px 0px;
+
+}
+.contact-table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.work-table{
+  margin: 2rem auto 4rem;
+  padding-top: 3rem;
+}
+.skill-table{
+  margin: 2rem auto 4rem;
+  text-align: justify;
+
+}
+.footer-link{
+  margin: 1rem;
+  height: 3rem;
+}
+.link-div{
+  margin: 2rem auto;
+}
+.contact-page{
+  background-color: #B5D5C5;
+  margin: 100px;
+  text-align: center;
+}
+.contact-div{
+  background-color: #ECF9FF;
+  margin: 0px 450px;
+  border-radius: 5%;
+}
+.div-skill:hover{
+  background-color: #B5D5C5;
+}
+
+@media only screen and (max-width:700px){
+  .middle-cloud {
+  position: absolute;
+  right: 30%;
+  top: 33%;
+  width: 7%;
+  height: auto;
+  }
+  .buttom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  width: 10%;
+  height: auto;
+  }
+  .top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 86%;
+  width: 9%;
+  height: auto;
+  }
+  .header-div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #B5D5C5;
+  }
+  .mountain {
+  width: 70%;
+  height: auto%;
+  margin-top: 60%;
+  }
+
+}
