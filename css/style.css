@@ -8,7 +8,7 @@ a{
   padding: 0.6rem;
   color: #0081C9;
 }
-a:hover{
+.footer-link:hover{
   background-color: #A084DC;
   color: black;
   border-radius: 7%;
@@ -116,43 +116,6 @@ button:hover{
   margin-left: 2rem;
 
 }
-.ai-img{
-  height: 9.44rem;
-  width: auto;
-  margin: auto;
-  float: left;
-  margin-right: 2rem;
-
-}
-.android-img{
-  height: 9.44rem;
-  width: auto;
-  margin: auto;
-  float: right;
-  margin-left: 2rem;
-
-}
-.security-img{
-  height: 9.44rem;
-  width: auto;
-  margin: auto;
-  float: left;
-  margin-right: 2rem;
-}
-.hacker-img{
-  height: 9.44rem;
-  width: auto;
-  margin: auto;
-  float: right;
-  margin-left: 2rem;
-}
-.data-img{
-  height: 9.44rem;
-  width: auto;
-  margin: auto;
-  float: left;
-  margin-right: 2rem;
-}
 
 .footer-div{
   background-color: #B5D5C5;
@@ -174,7 +137,6 @@ button:hover{
 
 }
 .footer-link{
-  margin: 1rem;
   height: 3rem;
 }
 .link-div{
@@ -190,11 +152,19 @@ button:hover{
   margin: 0px 450px;
   border-radius: 5%;
 }
+.back-link{
+  hover: none;
+}
 .div-skill:hover{
   background-color: #B5D5C5;
 }
 
 @media only screen and (max-width:700px){
+p{
+  font-size: 1rem;
+  line-height: normal;
+}
+
   .middle-cloud {
   position: absolute;
   right: 30%;
@@ -217,7 +187,6 @@ button:hover{
   height: auto;
   }
   .header-div{
-    position: relative;
     height: 100%;
     width: 100%;
     background-color: #B5D5C5;
@@ -227,5 +196,38 @@ button:hover{
   height: auto%;
   margin-top: 60%;
   }
+  .profile-img{
+    width: 100%;
+  }
+  .intro-div{
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
 
+  }
+  .web-img{
+    clear: both;
+    overflow:auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .research-img{
+    clear: both;
+    overflow:auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+h3{
+  clear:both;
+overflow:auto;
+}
+.div-skill{
+  margin-top: 110px;
+  text-align: center;
+}
+.header-course{
+  text-align: center;
+  overflow: auto;
 }
