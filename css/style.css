@@ -1,23 +1,28 @@
+/* Page margin */
 *{
   margin: 0px;
-  padding: 0px;
 }
+/* links */
 a{
   text-decoration: none;
   font-size: 1.3rem;
   padding: 0.6rem;
   color: #0081C9;
 }
+/* body sytle */
+body{
+  text-align: center;
+  height: 100vh;
+}
+
+
 .footer-link:hover{
   background-color: #A084DC;
   color: black;
   border-radius: 7%;
 }
-body{
-  margin-top: 0%;
-  text-align: center;
-  height: 100vh;
-}
+
+
 hr{
   background-color: tranparent;
   width: 10%;
@@ -45,11 +50,11 @@ button{
   margin-bottom: 2rem;
 }
 .header-div{
-  padding-top: 120px;
-  position: relative;
-  height: 100%;
+  padding-top: 10rem;
+  height: 100vh;
   width: 100%;
   background-color: #B5D5C5;
+  position: relative;
 }
 .top-cloud{
   position: absolute;
@@ -75,10 +80,9 @@ button{
 .mountain{
   width: 70%;
   height: auto;
-  bottom: 0px;
-  margin: 0 auto;
   position: absolute;
-  left: 0px;
+  bottom: 0px;
+  left: 20%;
 }
 .my-name{
   font-family: Sacramento;
@@ -91,19 +95,21 @@ button:hover{
 .profile-img{
   width: 20%;
 }
-.mid-div{
-  display: block;
-  text-align: center;
-  line-height: 1;
-}
+
 .div-skill{
   width: 50%;
   height: 9.44rem;
   margin: 1.5rem auto;
-  text-align: left;
-  line-height: 2;
 
 }
+ .p-text{
+   width: auto;
+   height: 8rem;
+   text-align: justify;
+   line-height: 1.3rem;
+   overflow: auto;
+   padding: 0 0.8rem;
+ }
 
 .web-img{
   width: auto;
@@ -127,10 +133,7 @@ button:hover{
   padding: 50px 0px;
 
 }
-.contact-table{
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .work-table{
   margin: 2rem auto 4rem;
   padding-top: 3rem;
@@ -142,6 +145,7 @@ button:hover{
 }
 .footer-link{
   height: 3rem;
+  font-size: 1rem;
 }
 .link-div{
   margin: 2rem auto;
@@ -163,7 +167,64 @@ button:hover{
   background-color: #B5D5C5;
 }
 
-@media only screen and (max-width:700px){
+
+/* contact page CSS */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width:600px){
 p{
   font-size: 1rem;
   line-height: normal;
@@ -201,7 +262,6 @@ p{
   height: auto%;
   position: absolute;
   left: 0px;
-
   bottom: 0;
   margin-right: 100px;
   }
@@ -213,19 +273,19 @@ p{
     width: 90%;
     text-align: center;
     margin: 0 auto;
-
   }
+
   .web-img{
     clear: both;
     overflow:auto;
-    margin: 0 auto;
     width: 100%;
+    height: auto;
   }
   .research-img{
     clear: both;
     overflow:auto;
-    margin: 0 auto;
     width: 100%;
+    height: auto;
   }
 
 h3{
@@ -233,10 +293,14 @@ h3{
 overflow:auto;
 }
 .div-skill{
-  margin-top: 110px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
   text-align: center;
+  width: 75%;
 }
 .header-course{
   text-align: center;
   overflow: auto;
 }
+/* contact page styling */
