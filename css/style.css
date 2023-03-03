@@ -16,7 +16,7 @@ a{
 body{
   margin-top: 0%;
   text-align: center;
-  position: relative;
+  height: 100vh;
 }
 hr{
   background-color: tranparent;
@@ -74,7 +74,11 @@ button{
 }
 .mountain{
   width: 70%;
-  height: auto%;
+  height: auto;
+  bottom: 0px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0px;
 }
 .my-name{
   font-family: Sacramento;
@@ -180,21 +184,26 @@ p{
   height: auto;
   }
   .top-cloud {
-  position: absolute;
+  position: relative;
   right: 18%;
   top: 86%;
   width: 9%;
   height: auto;
   }
   .header-div{
+    position: relative;
     height: 100%;
     width: 100%;
     background-color: #B5D5C5;
   }
   .mountain {
-  width: 70%;
+  width: 100%;
   height: auto%;
-  margin-top: 60%;
+  position: absolute;
+  left: 0px;
+
+  bottom: 0;
+  margin-right: 100px;
   }
   .profile-img{
     width: 100%;
